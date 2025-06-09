@@ -1,0 +1,2590 @@
+2025-05-03 08:04:29,896 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:08:27,177 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:08:46,113 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:08:46"
+  }
+}
+
+2025-05-03 08:09:02,179 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:09:02"
+  }
+}
+
+2025-05-03 08:09:07,966 - DEBUG - {
+  "direction": "RECEIVED",
+  "content": "exi"
+}
+
+2025-05-03 08:09:07,966 - WARNING - [VAULT_CLI1] Mensagem não era JSON válida.
+
+2025-05-03 08:09:20,757 - DEBUG - {
+  "direction": "RECEIVED",
+  "content": "add ../Te"
+}
+
+2025-05-03 08:09:20,757 - WARNING - [VAULT_CLI1] Mensagem não era JSON válida.
+
+2025-05-03 08:09:29,674 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "User 1 (SSI Vault Client 1)": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "RkLIs7rF5ksq1H9CWHeCY0kX9KwAbn0rRT7tRuhUZnfwcEjyoCU+RNL/6bPp8vxmorHorbuWt3s+ntAI",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_User 1 (SSI Vault Client 1)": "bNrs1yuVq5YWXiaFJma1g5vt22p3kGTqMxkcLw9kg2Sw0i/dB6nLCDifkuDRYdj7cxoTk405AjKhvagJvbLMupEDMR6tAfjlHVBHBIvyckhOr3gj9iXMpPhRBLAHbXweIecTYbQ1o6Cak4hq/2WTYg6uf59M2+BFd3md2aB9wa1WVnxmwEX34W7FeZ2sdwuVDEiszyAvVztZMAMfsi2jz95dTOW3nfpOYSwWV5xlgABLRjW9NxZr7zr8xdIN+etgpImXz4mRbUgxIFntPi0qdG0BLxQWLvvxQZFRN76xLFDWBTnAic9JuO3kDdwlugaCzXakXa8vYogxG3Tk9x70yQ=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:09:29"
+  }
+}
+
+2025-05-03 08:09:29,677 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "User 1 (SSI Vault Client 1)": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "RkLIs7rF5ksq1H9CWHeCY0kX9KwAbn0rRT7tRuhUZnfwcEjyoCU+RNL/6bPp8vxmorHorbuWt3s+ntAI",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_User 1 (SSI Vault Client 1)": "bNrs1yuVq5YWXiaFJma1g5vt22p3kGTqMxkcLw9kg2Sw0i/dB6nLCDifkuDRYdj7cxoTk405AjKhvagJvbLMupEDMR6tAfjlHVBHBIvyckhOr3gj9iXMpPhRBLAHbXweIecTYbQ1o6Cak4hq/2WTYg6uf59M2+BFd3md2aB9wa1WVnxmwEX34W7FeZ2sdwuVDEiszyAvVztZMAMfsi2jz95dTOW3nfpOYSwWV5xlgABLRjW9NxZr7zr8xdIN+etgpImXz4mRbUgxIFntPi0qdG0BLxQWLvvxQZFRN76xLFDWBTnAic9JuO3kDdwlugaCzXakXa8vYogxG3Tk9x70yQ=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:09:29",
+    "file_id": "FU000000001"
+  }
+}
+
+2025-05-03 08:10:09,141 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:10:09"
+  }
+}
+
+2025-05-03 08:10:22,013 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "User 1 (SSI Vault Client 1)",
+    "user": "VAULT_CLI2",
+    "permission": "RW",
+    "msg": "Share personal file",
+    "timestamp": "2025-05-03 | 08:10:22"
+  }
+}
+
+2025-05-03 08:17:30,623 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "User 1 (SSI Vault Client 1)",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:17:30"
+  }
+}
+
+2025-05-03 08:17:30,623 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:17:30"
+  }
+}
+
+2025-05-03 08:17:32,972 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "User 2 (SSI Vault Client 2)",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:17:32"
+  }
+}
+
+2025-05-03 08:17:32,973 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:17:32"
+  }
+}
+
+2025-05-03 08:17:46,941 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:17:49,205 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:17:49"
+  }
+}
+
+2025-05-03 08:17:53,329 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:17:53"
+  }
+}
+
+2025-05-03 08:18:00,827 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "User 1 (SSI Vault Client 1)": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "Am4oKizKTejkJjLrJmV0A86eGJwZi5a58Dy+pgjxlgMun3Dm0ljyHoq1I8E08pHoH3tRdkGwqBLB3SX6",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "User 1 (SSI Vault Client 1)": "iJUTdb+jt6spj+hPn/PUZt+H+KK8m5yBHDLW45Pk8hDwH81wbI4L4Kd7oORyIzLZDmsr6zrvcws7RzdXCkMRfrCn3fbf/qKezN9HHCdJ+jddsLjCZhZFbUp8qVc1HupT4xiPsjOXzwBjAgp3Lvhl72I0RslLoD/DReAE24yy4BSTBvQZixhJT3ZrZ+RZMbVJfcUCojRNRIYoOdxAOtmf6yhlm9PcMSVENksWBB9sB/54FaDKRU2MzLa3b9SfzpzGnLCwtuW4iduXxRldWOqG1G/b+FGR0yTMgsavise2oG7MHX/NcYtkNlKFvnN89DFPLAsGlDwVQjGhmqMz9tUFxw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:18:00"
+  }
+}
+
+2025-05-03 08:18:00,830 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "User 1 (SSI Vault Client 1)": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "Am4oKizKTejkJjLrJmV0A86eGJwZi5a58Dy+pgjxlgMun3Dm0ljyHoq1I8E08pHoH3tRdkGwqBLB3SX6",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "User 1 (SSI Vault Client 1)": "iJUTdb+jt6spj+hPn/PUZt+H+KK8m5yBHDLW45Pk8hDwH81wbI4L4Kd7oORyIzLZDmsr6zrvcws7RzdXCkMRfrCn3fbf/qKezN9HHCdJ+jddsLjCZhZFbUp8qVc1HupT4xiPsjOXzwBjAgp3Lvhl72I0RslLoD/DReAE24yy4BSTBvQZixhJT3ZrZ+RZMbVJfcUCojRNRIYoOdxAOtmf6yhlm9PcMSVENksWBB9sB/54FaDKRU2MzLa3b9SfzpzGnLCwtuW4iduXxRldWOqG1G/b+FGR0yTMgsavise2oG7MHX/NcYtkNlKFvnN89DFPLAsGlDwVQjGhmqMz9tUFxw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:18:00",
+    "file_id": "FU000000001"
+  }
+}
+
+2025-05-03 08:18:24,299 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "User 1 (SSI Vault Client 1)",
+    "user": "VAULT_CLI2",
+    "permission": "RW",
+    "msg": "Share personal file",
+    "timestamp": "2025-05-03 | 08:18:24"
+  }
+}
+
+2025-05-03 08:20:43,853 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "User 1 (SSI Vault Client 1)",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:20:43"
+  }
+}
+
+2025-05-03 08:20:43,853 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:20:43"
+  }
+}
+
+2025-05-03 08:20:45,959 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "User 2 (SSI Vault Client 2)",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:20:45"
+  }
+}
+
+2025-05-03 08:20:45,959 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:20:45"
+  }
+}
+
+2025-05-03 08:20:49,283 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:20:51,632 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:20:51"
+  }
+}
+
+2025-05-03 08:20:54,049 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "User 1 (SSI Vault Client 1)": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "+9gLi4N1JcqKq5ZfFAdskqYy7qho2wlRMHEL07MYJlX5it9ASF+p3ik06Rm1qu7oRT3mok573dwZwYlT",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "User 1 (SSI Vault Client 1)": "DGbVcf2+gH9xnUhms0QGvVcU6tMQOnCIg9gieiS/ueaXnPZ1hu9jMwDopIqjQbpD+BR+zFsgD8a44qYhKlFZxzqUC2bUJMzNVj1VUGuUssN+DpwvSEk1O18yZO6Jl4/wD251n3cNohg6blEetcOxr5UpmtbgBpr/pF1OjvUABjWjVcjFzGYyatvQJMEGxuoVtyvC1sR3AwdLyinh5t0cXDHETIZOHuIIXZsM6keeqqGY/CQO98HNyuCPBZhMs7Q5FbDnlROR1bY0hzFfStLaq+mckTrR2PdOHSd2WuK3Z7tidsOAoh0veGprL62AH1k8+21lQ4GTdZiMs2M3XkFVBA=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:20:54"
+  }
+}
+
+2025-05-03 08:20:54,051 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "User 1 (SSI Vault Client 1)": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "+9gLi4N1JcqKq5ZfFAdskqYy7qho2wlRMHEL07MYJlX5it9ASF+p3ik06Rm1qu7oRT3mok573dwZwYlT",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "User 1 (SSI Vault Client 1)": "DGbVcf2+gH9xnUhms0QGvVcU6tMQOnCIg9gieiS/ueaXnPZ1hu9jMwDopIqjQbpD+BR+zFsgD8a44qYhKlFZxzqUC2bUJMzNVj1VUGuUssN+DpwvSEk1O18yZO6Jl4/wD251n3cNohg6blEetcOxr5UpmtbgBpr/pF1OjvUABjWjVcjFzGYyatvQJMEGxuoVtyvC1sR3AwdLyinh5t0cXDHETIZOHuIIXZsM6keeqqGY/CQO98HNyuCPBZhMs7Q5FbDnlROR1bY0hzFfStLaq+mckTrR2PdOHSd2WuK3Z7tidsOAoh0veGprL62AH1k8+21lQ4GTdZiMs2M3XkFVBA=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:20:54",
+    "file_id": "FU000000002"
+  }
+}
+
+2025-05-03 08:23:25,851 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "User 1 (SSI Vault Client 1)",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:23:25"
+  }
+}
+
+2025-05-03 08:23:25,851 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:23:25"
+  }
+}
+
+2025-05-03 08:23:33,373 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:23:34,524 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:23:34"
+  }
+}
+
+2025-05-03 08:23:35,695 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "User 1 (SSI Vault Client 1)": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "Zv6yI96VRuOm+FAOLG+I7FR9lxNutDl9PjdYW5df9nTQF0S8UiakJxVTg9fWfrZAcYSPlAYpzEfYpN00",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "User 1 (SSI Vault Client 1)": "g4y+hGkPh1n/GicZ4kSzeVhrwFCDWYfPRNqz3ieg61/HJ5gRddz8GIWVa+VJJCtyB6plO9vp4l1YLhb55TgkiThpD4ZQrllzePBXCiJgYrDtpZeTgLbtTJ8EILzxvJNKTpBZ6NyUs44yYMbSrFRfXjiILo6cqWzQhH8/UW144s9IrcmCh1mfyUKW7KCiR5owdwV7ZQvRY94AeeklJU6ezzakgsmkoCA1FMx+fkUfnIrNxOpG9UIkrUNd5/TZR+NGC5EvA05FOwVxSK55Eh0uR+hxOYzkXL2vCYhKcnavUkWTGaOlMXdRS0EDMX3MNUzz16Lea7uB/3cA0sRGsBKWrg=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:23:35"
+  }
+}
+
+2025-05-03 08:23:35,697 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "User 1 (SSI Vault Client 1)": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "Zv6yI96VRuOm+FAOLG+I7FR9lxNutDl9PjdYW5df9nTQF0S8UiakJxVTg9fWfrZAcYSPlAYpzEfYpN00",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "User 1 (SSI Vault Client 1)": "g4y+hGkPh1n/GicZ4kSzeVhrwFCDWYfPRNqz3ieg61/HJ5gRddz8GIWVa+VJJCtyB6plO9vp4l1YLhb55TgkiThpD4ZQrllzePBXCiJgYrDtpZeTgLbtTJ8EILzxvJNKTpBZ6NyUs44yYMbSrFRfXjiILo6cqWzQhH8/UW144s9IrcmCh1mfyUKW7KCiR5owdwV7ZQvRY94AeeklJU6ezzakgsmkoCA1FMx+fkUfnIrNxOpG9UIkrUNd5/TZR+NGC5EvA05FOwVxSK55Eh0uR+hxOYzkXL2vCYhKcnavUkWTGaOlMXdRS0EDMX3MNUzz16Lea7uB/3cA0sRGsBKWrg=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:23:35",
+    "file_id": "FU000000003"
+  }
+}
+
+2025-05-03 08:24:13,855 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "User 1 (SSI Vault Client 1)",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:24:13"
+  }
+}
+
+2025-05-03 08:24:13,855 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:24:13"
+  }
+}
+
+2025-05-03 08:25:43,365 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:25:45,775 - CRITICAL - [VAULT_CLI1] Erro na verificação da assinatura: cannot access local variable 'cli_public_key_pem' where it is not associated with a value
+
+2025-05-03 08:25:50,268 - CRITICAL - [VAULT_CLI1] Erro na verificação da assinatura: cannot access local variable 'cli_public_key_pem' where it is not associated with a value
+
+2025-05-03 08:26:24,737 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:26:26,638 - CRITICAL - [VAULT_CLI1] Erro na verificação da assinatura: cannot access local variable 'cli_public_key_pem' where it is not associated with a value
+
+2025-05-03 08:27:58,959 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:28:00,659 - CRITICAL - [VAULT_CLI1] Erro na verificação da assinatura: 'ServerWorker' object has no attribute 'cli_public_key_pem'
+
+2025-05-03 08:28:15,904 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:28:18,123 - CRITICAL - [VAULT_CLI1] Erro na verificação da assinatura: 'ServerWorker' object has no attribute 'cli_public_key'
+
+2025-05-03 08:29:05,062 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:29:07,094 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:29:07"
+  }
+}
+
+2025-05-03 08:29:13,288 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:29:13"
+  }
+}
+
+2025-05-03 08:29:17,382 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": null,
+    "user": "VAULT_CLI2",
+    "permission": "RW",
+    "msg": "Share personal file",
+    "timestamp": "2025-05-03 | 08:29:17"
+  }
+}
+
+2025-05-03 08:29:21,712 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "null": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "rzma5kYacQO3n0A/rGXxh1JigucLzNY4hlRQgHnKaaE/fW3vZdkZbHzzy+x/k2/Su9yqvFZKFABlidSU",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "null": "R+WA7byFLjmAiWxhoiGFs1tdqMa1SStwlWFWCNzHkbirCR5bLzM0//hEaNU+mYqQ38d7wt6CS/08k42ZfzoknTksv9VFCt1+2zqtKkNkXaMsEj5E0yWzD0hvXEfA1WuWjAEBr+KzowxlzLrBq0Wmp9TPvRZDBt31B7jMdsy0UPzmzaNOeAGbRh8KzEP+P46eS1agle4QyuHq1EalSNzu40pspwRwwbJxEfmnpNwWsqLk5FKO4JiWf3UQucLNsXCxJQGhfwpnos4pGtnGCqNQilK7UoU7ELBRzI+iCFOrI+rq1sbPcqO4++0mTxanQ73uFmj5HsdKwfCyOM5GVt/BKw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:29:21"
+  }
+}
+
+2025-05-03 08:29:21,715 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "null": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "rzma5kYacQO3n0A/rGXxh1JigucLzNY4hlRQgHnKaaE/fW3vZdkZbHzzy+x/k2/Su9yqvFZKFABlidSU",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "null": "R+WA7byFLjmAiWxhoiGFs1tdqMa1SStwlWFWCNzHkbirCR5bLzM0//hEaNU+mYqQ38d7wt6CS/08k42ZfzoknTksv9VFCt1+2zqtKkNkXaMsEj5E0yWzD0hvXEfA1WuWjAEBr+KzowxlzLrBq0Wmp9TPvRZDBt31B7jMdsy0UPzmzaNOeAGbRh8KzEP+P46eS1agle4QyuHq1EalSNzu40pspwRwwbJxEfmnpNwWsqLk5FKO4JiWf3UQucLNsXCxJQGhfwpnos4pGtnGCqNQilK7UoU7ELBRzI+iCFOrI+rq1sbPcqO4++0mTxanQ73uFmj5HsdKwfCyOM5GVt/BKw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:29:21",
+    "file_id": "FU000000001"
+  }
+}
+
+2025-05-03 08:29:30,174 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": null,
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:29:30"
+  }
+}
+
+2025-05-03 08:29:30,174 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:29:30"
+  }
+}
+
+2025-05-03 08:29:33,543 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": null,
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:29:33"
+  }
+}
+
+2025-05-03 08:29:33,543 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:29:33"
+  }
+}
+
+2025-05-03 08:30:08,945 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:30:10,846 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:30:10"
+  }
+}
+
+2025-05-03 08:30:13,120 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:30:13"
+  }
+}
+
+2025-05-03 08:30:15,556 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "53K56aiko2vRgUwxdm8+vCfnmsjATL2/27cL4wfqXaks9OvsnOFFXP+tBF0fY3J7hB9X8ZHt1oFtySWq",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "aBQZUPxa6t0D1KtzSapKO+8jaeExIW9EI5S5NPEjTkD/viF1Xi4PrAFkKpzjFc4tf25Z0+vwIUo6eY629oOMJ5xxsxeAVBcamDnvDtXE/K58+JZqHLrS3mQ64OaCrAAPC+jDqwFVowYYhi6KIUpfnAhadkJSpLNNv7L9NesGAUOEJjG09gkLhVgTrVl2lswl5gRKZrE5fBE+YH/5KbtfUif7EgqxZ05Jxl3MkGteLgDcLnKPpm/d+hTzzF7ucQMvCOkPvx1tVbN4j2Nn74S8IOFwPlHX1UrCZyDxECJwtQY0G3RS44q5pWZfAlDyScmSgL8sLSthuEoUmtWlWZtNtw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:30:15"
+  }
+}
+
+2025-05-03 08:30:15,558 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "53K56aiko2vRgUwxdm8+vCfnmsjATL2/27cL4wfqXaks9OvsnOFFXP+tBF0fY3J7hB9X8ZHt1oFtySWq",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "aBQZUPxa6t0D1KtzSapKO+8jaeExIW9EI5S5NPEjTkD/viF1Xi4PrAFkKpzjFc4tf25Z0+vwIUo6eY629oOMJ5xxsxeAVBcamDnvDtXE/K58+JZqHLrS3mQ64OaCrAAPC+jDqwFVowYYhi6KIUpfnAhadkJSpLNNv7L9NesGAUOEJjG09gkLhVgTrVl2lswl5gRKZrE5fBE+YH/5KbtfUif7EgqxZ05Jxl3MkGteLgDcLnKPpm/d+hTzzF7ucQMvCOkPvx1tVbN4j2Nn74S8IOFwPlHX1UrCZyDxECJwtQY0G3RS44q5pWZfAlDyScmSgL8sLSthuEoUmtWlWZtNtw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:30:15",
+    "file_id": "FU000000002"
+  }
+}
+
+2025-05-03 08:30:19,094 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000002",
+    "requester": "VAULT_CLI1",
+    "user": "VAULT_CLI2",
+    "permission": "RW",
+    "msg": "Share personal file",
+    "timestamp": "2025-05-03 | 08:30:19"
+  }
+}
+
+2025-05-03 08:30:19,095 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000002",
+    "requester": "VAULT_CLI1",
+    "target_user": "VAULT_CLI2",
+    "encrypted_aes_key": "aBQZUPxa6t0D1KtzSapKO+8jaeExIW9EI5S5NPEjTkD/viF1Xi4PrAFkKpzjFc4tf25Z0+vwIUo6eY629oOMJ5xxsxeAVBcamDnvDtXE/K58+JZqHLrS3mQ64OaCrAAPC+jDqwFVowYYhi6KIUpfnAhadkJSpLNNv7L9NesGAUOEJjG09gkLhVgTrVl2lswl5gRKZrE5fBE+YH/5KbtfUif7EgqxZ05Jxl3MkGteLgDcLnKPpm/d+hTzzF7ucQMvCOkPvx1tVbN4j2Nn74S8IOFwPlHX1UrCZyDxECJwtQY0G3RS44q5pWZfAlDyScmSgL8sLSthuEoUmtWlWZtNtw==",
+    "public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF4Z2pZbnIxZDVxRERTVWNxVG93OQpGTzRlenlPLzBGL29wc3ZtMVl3cDZsWWhkQ1hlV09NZXE5bldQNHlwSU9zbFFkSEQ2N0JCc3NTTXdNTm5ITEhqCjdZekZoQjl4ZElaSHcvbzc3L1h4Ym5OZXkyQitBUS9NMVZhRVpyaHNSeWd4Q0ZYVGFVdGJNTW9aZW5Cb1FtWUwKbURvcitXeUJ5Rnd1WmloaHB3MERsa05zVThWRVczQWY0aUZlY2s1UFRZMHgrWVlpeC9ZSU92eC8wTkkwZ21MRApkTXFybGY3ZkFMbFBrd2NFMk40K2x2VWl5Sk5hQ20rbG96WXFYdURPV2ZDYTVGaElwQXJldUdhZlRISFgvQ2NKCllTTnVOWERLVjdLbHQwSWhHbldtYi9JYWtuM1Nsb0o4QUxiNzd5YnBMNDVGS0ozcTFmcjhnWmNYUi84ZENFMjMKcndJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  }
+}
+
+2025-05-03 08:30:19,097 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "requester": "VAULT_CLI1",
+    "file_id": "FU000000002",
+    "target_user": "VAULT_CLI2",
+    "action": "share_finalize",
+    "encrypted_key": "XZmU49rm2bg3c+peyoM+LwZ6V63mQVHqrqm+nywx/wwFJa7fkbCs/05eDItRvv0oZ/WJuc+b/l0Gu7Zr56gPRijNBjt3pak8+2rDd10t7YiHhmmXoH/j4z8x8BlLbCXZxx0XlM+wC7BNJ0mzH8i01qQ0RyhnXCb5vZTxHSEwEYZBo9f6Jp0R/VrF+VCnUP3uhw0tjiJ/uT2JBWzWR7omUVmz4hR/61OwTAnQwenphBy2J9T3B1Y+EmTP+Tmnll+CzJCx028u+xAoDzDgDRg1yLOA9Kp0oeRAdI8zVkRf5HwQJvswWd1ybwjL6UjU3BcNBulIS8aPr2xQr0LoRUkO2A=="
+  }
+}
+
+2025-05-03 08:30:19,104 - INFO - {
+  "direction": "SENT",
+  "content": "[ERRO] Utilizador 'VAULT_VAULT_CLI2' não encontrado na base de dados."
+}
+
+2025-05-03 08:31:25,796 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI1",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:31:25"
+  }
+}
+
+2025-05-03 08:31:25,797 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:31:25"
+  }
+}
+
+2025-05-03 08:31:28,062 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI2",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:31:28"
+  }
+}
+
+2025-05-03 08:31:28,062 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:31:28"
+  }
+}
+
+2025-05-03 08:31:42,027 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:31:44,937 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:31:44"
+  }
+}
+
+2025-05-03 08:32:08,553 - ERROR - Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport fd=1236>
+Traceback (most recent call last):
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 452, in run_server
+    loop.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 429, in handle_echo
+    if not data: continue
+                 ^^^^^^^^
+KeyboardInterrupt
+2025-05-03 08:32:08,558 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<handle_echo() done, defined at C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py:422> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[StreamReaderProtocol.connection_made.<locals>.callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py:248]>
+2025-05-03 08:32:10,194 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:32:18,879 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:32:18"
+  }
+}
+
+2025-05-03 08:32:20,891 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:32:20"
+  }
+}
+
+2025-05-03 08:32:26,358 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "Zj7HBKWMpU5cwzSG2GN98m0yb6CzshimlEiFRsINo1vhC45ukUfIwL+mvB58O3SwrxLO5G0jwSo8vcOx",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "fguUWTc58EQaM62f2tqQfqJNO7fnj8vycfs8I7cYE3BDjXTHN5XtH4d0u2TYGsEnsCbArQjddRa3bOO9dn8lU6LIpS5EWRHAr3pnBkLa1GoMbBdkRWy7r5v+/biZwLw43b57MOjYVGByG+mD79l9djhDpg7FnIb4mvnWGauFLuHrV/U+rrHz29mwX/2Kq7TmG8kI+nAU8Sx8TVmwk1VBPKTo9oQGHoZDIsWJO1OhJ5MunyyS77il1COKfmu5VPSYRJFY2tjLEXuXP1caLWwAAdk0id/2cFcLtfoO1lvxHViEiEc7072xL6qxhj+JsI39QNu8O02QQDKuTiVqRu9mSw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:32:26"
+  }
+}
+
+2025-05-03 08:32:26,361 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "Zj7HBKWMpU5cwzSG2GN98m0yb6CzshimlEiFRsINo1vhC45ukUfIwL+mvB58O3SwrxLO5G0jwSo8vcOx",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "fguUWTc58EQaM62f2tqQfqJNO7fnj8vycfs8I7cYE3BDjXTHN5XtH4d0u2TYGsEnsCbArQjddRa3bOO9dn8lU6LIpS5EWRHAr3pnBkLa1GoMbBdkRWy7r5v+/biZwLw43b57MOjYVGByG+mD79l9djhDpg7FnIb4mvnWGauFLuHrV/U+rrHz29mwX/2Kq7TmG8kI+nAU8Sx8TVmwk1VBPKTo9oQGHoZDIsWJO1OhJ5MunyyS77il1COKfmu5VPSYRJFY2tjLEXuXP1caLWwAAdk0id/2cFcLtfoO1lvxHViEiEc7072xL6qxhj+JsI39QNu8O02QQDKuTiVqRu9mSw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 08:32:26",
+    "file_id": "FU000000001"
+  }
+}
+
+2025-05-03 08:32:30,939 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI1",
+    "user": "VAULT_CLI2",
+    "permission": "RW",
+    "msg": "Share personal file",
+    "timestamp": "2025-05-03 | 08:32:30"
+  }
+}
+
+2025-05-03 08:32:30,941 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI1",
+    "target_user": "VAULT_CLI2",
+    "encrypted_aes_key": "fguUWTc58EQaM62f2tqQfqJNO7fnj8vycfs8I7cYE3BDjXTHN5XtH4d0u2TYGsEnsCbArQjddRa3bOO9dn8lU6LIpS5EWRHAr3pnBkLa1GoMbBdkRWy7r5v+/biZwLw43b57MOjYVGByG+mD79l9djhDpg7FnIb4mvnWGauFLuHrV/U+rrHz29mwX/2Kq7TmG8kI+nAU8Sx8TVmwk1VBPKTo9oQGHoZDIsWJO1OhJ5MunyyS77il1COKfmu5VPSYRJFY2tjLEXuXP1caLWwAAdk0id/2cFcLtfoO1lvxHViEiEc7072xL6qxhj+JsI39QNu8O02QQDKuTiVqRu9mSw==",
+    "public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF4Z2pZbnIxZDVxRERTVWNxVG93OQpGTzRlenlPLzBGL29wc3ZtMVl3cDZsWWhkQ1hlV09NZXE5bldQNHlwSU9zbFFkSEQ2N0JCc3NTTXdNTm5ITEhqCjdZekZoQjl4ZElaSHcvbzc3L1h4Ym5OZXkyQitBUS9NMVZhRVpyaHNSeWd4Q0ZYVGFVdGJNTW9aZW5Cb1FtWUwKbURvcitXeUJ5Rnd1WmloaHB3MERsa05zVThWRVczQWY0aUZlY2s1UFRZMHgrWVlpeC9ZSU92eC8wTkkwZ21MRApkTXFybGY3ZkFMbFBrd2NFMk40K2x2VWl5Sk5hQ20rbG96WXFYdURPV2ZDYTVGaElwQXJldUdhZlRISFgvQ2NKCllTTnVOWERLVjdLbHQwSWhHbldtYi9JYWtuM1Nsb0o4QUxiNzd5YnBMNDVGS0ozcTFmcjhnWmNYUi84ZENFMjMKcndJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  }
+}
+
+2025-05-03 08:32:30,942 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "requester": "VAULT_CLI1",
+    "file_id": "FU000000001",
+    "target_user": "VAULT_CLI2",
+    "action": "share_finalize",
+    "encrypted_key": "A3SCkZRjRKzOvF0ZzCZ2TyNkv+CEzOPNagJR70uT+SII7I3Pf2lUse8G8zahgurWHOmebVuBBqEAvnNkurroRwvVrZaCp26Em3j2vKCIryIQLCvcUvNRrm+F7JaAZ2Si5RW18JNx2B2z4tVubkmH2cOuAXV2JEmLIDxaM8Vf4kQPaK8nBBe08sG411/vMMJpOB/7bPle47YuJSdvLKL25b1dpGdeVvBKnLK6BE7sscj4YbOIJU/GA6O897XqbCFxZxBr5e+9AbOcAVrZtK9SY3hkaq45rXXeEn+Jt59vCQuz5PCpW3yRYu3geeTxaTkDRVRIDLSiBvEin2TsxAlzDQ=="
+  }
+}
+
+2025-05-03 08:32:30,950 - INFO - {
+  "direction": "SENT",
+  "content": "[INFO] Ficheiro 'FU000000001' compartilhado com sucesso para o utilizador 'VAULT_CLI2'."
+}
+
+2025-05-03 08:32:36,478 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "read",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI1",
+    "msg": "Read file",
+    "timestamp": "2025-05-03 | 08:32:36"
+  }
+}
+
+2025-05-03 08:32:36,484 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read_reply",
+    "file_id": "FU000000001",
+    "file_content": "Zj7HBKWMpU5cwzSG2GN98m0yb6CzshimlEiFRsINo1vhC45ukUfIwL+mvB58O3SwrxLO5G0jwSo8vcOx",
+    "aes_key": "fguUWTc58EQaM62f2tqQfqJNO7fnj8vycfs8I7cYE3BDjXTHN5XtH4d0u2TYGsEnsCbArQjddRa3bOO9dn8lU6LIpS5EWRHAr3pnBkLa1GoMbBdkRWy7r5v+/biZwLw43b57MOjYVGByG+mD79l9djhDpg7FnIb4mvnWGauFLuHrV/U+rrHz29mwX/2Kq7TmG8kI+nAU8Sx8TVmwk1VBPKTo9oQGHoZDIsWJO1OhJ5MunyyS77il1COKfmu5VPSYRJFY2tjLEXuXP1caLWwAAdk0id/2cFcLtfoO1lvxHViEiEc7072xL6qxhj+JsI39QNu8O02QQDKuTiVqRu9mSw=="
+  }
+}
+
+2025-05-03 08:32:39,015 - DEBUG - {
+  "direction": "RECEIVED",
+  "content": "FU000000001"
+}
+
+2025-05-03 08:32:39,015 - WARNING - [VAULT_CLI2] Mensagem não era JSON válida.
+
+2025-05-03 08:32:42,375 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "read",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI2",
+    "msg": "Read file",
+    "timestamp": "2025-05-03 | 08:32:42"
+  }
+}
+
+2025-05-03 08:32:42,376 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read_reply",
+    "file_id": "FU000000001",
+    "file_content": "Zj7HBKWMpU5cwzSG2GN98m0yb6CzshimlEiFRsINo1vhC45ukUfIwL+mvB58O3SwrxLO5G0jwSo8vcOx",
+    "aes_key": "A3SCkZRjRKzOvF0ZzCZ2TyNkv+CEzOPNagJR70uT+SII7I3Pf2lUse8G8zahgurWHOmebVuBBqEAvnNkurroRwvVrZaCp26Em3j2vKCIryIQLCvcUvNRrm+F7JaAZ2Si5RW18JNx2B2z4tVubkmH2cOuAXV2JEmLIDxaM8Vf4kQPaK8nBBe08sG411/vMMJpOB/7bPle47YuJSdvLKL25b1dpGdeVvBKnLK6BE7sscj4YbOIJU/GA6O897XqbCFxZxBr5e+9AbOcAVrZtK9SY3hkaq45rXXeEn+Jt59vCQuz5PCpW3yRYu3geeTxaTkDRVRIDLSiBvEin2TsxAlzDQ=="
+  }
+}
+
+2025-05-03 08:32:45,123 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI2",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI2'"
+  }
+}
+
+2025-05-03 08:32:45,123 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI2",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI2'"
+  }
+}
+
+2025-05-03 08:32:48,173 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI1",
+    "target_type": "user",
+    "target_id": "VAULT_CLI1",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI1'"
+  }
+}
+
+2025-05-03 08:32:48,174 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI1",
+    "target_type": "user",
+    "target_id": "VAULT_CLI1",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI1'"
+  }
+}
+
+2025-05-03 08:32:55,601 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI1",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI1'"
+  }
+}
+
+2025-05-03 08:32:55,602 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI1",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI1'"
+  }
+}
+
+2025-05-03 08:33:20,212 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "revoke",
+    "user": "VAULT_CLI2",
+    "file_id": "FU000000001",
+    "msg": "Revogar acesso a ficheiro",
+    "timestamp": "2025-05-03 | 08:33:20"
+  }
+}
+
+2025-05-03 08:33:20,213 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "revoke",
+    "status": "success",
+    "msg": "Acesso revogado com sucesso!",
+    "timestamp": "2025-05-03 | 08:33:20"
+  }
+}
+
+2025-05-03 08:33:26,867 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI1",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI1'"
+  }
+}
+
+2025-05-03 08:33:26,868 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI1",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI1'"
+  }
+}
+
+2025-05-03 08:33:34,694 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "create group",
+    "group_name": "G1",
+    "msg": "cria novo grupo",
+    "timestamp": "2025-05-03 | 08:33:34"
+  }
+}
+
+2025-05-03 08:33:34,697 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "create group",
+    "msg": "[INFO] Grupo 'G1' com id G00001 criado com sucesso com 'VAULT_CLI1' como administrador.",
+    "timestamp": "2025-05-03 | 08:33:34"
+  }
+}
+
+2025-05-03 08:33:57,125 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add file to group vault",
+    "group_id": "G00001",
+    "file": "Test2.txt",
+    "file_content": "7jE3UdCBVhYY9H0niXE79l47BC9wIQSgKlukC0uijhD56hm6z17jVYkAT+RfdBFzrbqN008D0fo5X8/P",
+    "file_size": 32,
+    "user": "User X (SSI Vault Client X)",
+    "file_path": "/newFile.txt",
+    "encrypted_key": {
+      "VAULT_CLI1": "ZYlYMl78+IC7fdAlE+ORgaTYxTHaftcFJuRO1sGiHaRsJFYMIiwskwro2TJ9ej3xAlI/dlBSSsBwIVQMQrpV05oEyZvasurzphMHuBGNHAwVYniGqxnkdBW9274S38k2pR/jnPeV9aC0WuYh9+6vGx+3x8eIVv/+0tP5CZTPXaKAzNGVQ4Awo4+vB7vMe+HnNNThs+lJpj8dhAnUEPYQz0TumXo2kdlghA9kGzvLgh/j6Plj7Ot2fZhBhPi3mVAFUnJIQhUYX8b8pa5tYWSrtZgy2JBo4MtH3fRZynqrD56tcMNagEc7sasbsQ5POjFMPkyq7gOD6StRqwnlNDtkHQ=="
+    },
+    "msg": "adiconar ficheiro ao cofre do grupo",
+    "timestamp": "2025-05-03 | 08:33:57"
+  }
+}
+
+2025-05-03 08:33:57,127 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add file to group vault",
+    "msg": "FG000000001",
+    "timestamp": "2025-05-03 | 08:33:57"
+  }
+}
+
+2025-05-03 08:34:08,661 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "details",
+    "file_id": "FG000000001",
+    "msg": "File Details",
+    "timestamp": "2025-05-03 | 08:34:08"
+  }
+}
+
+2025-05-03 08:34:08,662 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "details",
+    "msg": "\nNome: Test2.txt\nTamanho: 32 bytes\nUtilizadores: {'VAULT_CLI1': 'RW'}",
+    "timestamp": "2025-05-03 | 08:34:08"
+  }
+}
+
+2025-05-03 08:34:23,325 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI1",
+    "target_type": "group",
+    "target_id": "FG000000001",
+    "msg": "Pedido de listagem de ficheiros de group 'FG000000001'"
+  }
+}
+
+2025-05-03 08:34:23,325 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI1",
+    "target_type": "group",
+    "target_id": "FG000000001",
+    "msg": "Pedido de listagem de ficheiros de group 'FG000000001'"
+  }
+}
+
+2025-05-03 08:34:32,279 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI1",
+    "target_type": "group",
+    "target_id": "G00001",
+    "msg": "Pedido de listagem de ficheiros de group 'G00001'"
+  }
+}
+
+2025-05-03 08:34:32,280 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI1",
+    "target_type": "group",
+    "target_id": "G00001",
+    "msg": "Pedido de listagem de ficheiros de group 'G00001'"
+  }
+}
+
+2025-05-03 08:34:48,719 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add file to group vault",
+    "group_id": "G00001",
+    "file": "Test3.txt",
+    "file_content": "SMe9PX1D4ANJo8svmRYlaLAm/THFhwnTSM2i0aLllxnf/+OfmpARECC0tmv+Zf7odL5ConYzx30gg285",
+    "file_size": 32,
+    "user": "User X (SSI Vault Client X)",
+    "file_path": "/newFile.txt",
+    "encrypted_key": {
+      "VAULT_CLI1": "Jf2gUOQJbI5csjOhLHvpuWBjnm99tkkRJoyo0QkVXdNCmlUW+imL/e9BsmQdhvmsn4E0Em3AbNOkOMfEKXBsxQk9bMQW79SpblAE+czF8VMckhpd5Xz8gCVVcCYeTnvjpaFkH4hG6DAf8LvldyvbEyWayrLv+oRpq/OeeOkOuW/dQfLEHdky/APukqhqciJyAQoexw/r1Ltzuy7kSOeU/WHHIuqZqcNL/MtKYJD2/sgB7cZGxklXc72GLCG58xloTWl3rE6BvN6EaiqQQ7uXv9GB4X6wehkMmmRp8GpHW7wOw54vj5JPh/MhfxorcqDZmLxkj/t5HNZ53X6ytvO+LQ=="
+    },
+    "msg": "adiconar ficheiro ao cofre do grupo",
+    "timestamp": "2025-05-03 | 08:34:48"
+  }
+}
+
+2025-05-03 08:34:48,721 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add file to group vault",
+    "msg": "FG000000002",
+    "timestamp": "2025-05-03 | 08:34:48"
+  }
+}
+
+2025-05-03 08:35:18,716 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:35:18"
+  }
+}
+
+2025-05-03 08:35:25,990 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add user to group",
+    "group_id": "G00001",
+    "permissions": "R",
+    "user": "VAULT_CLI3",
+    "owner": "VAULT_CLI1",
+    "msg": "adicionar user ao grupo",
+    "timestamp": "2025-05-03 | 08:35:25"
+  }
+}
+
+2025-05-03 08:35:25,992 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "group add-user finalize",
+    "group_id": "G00001",
+    "user": "VAULT_CLI3",
+    "requester": "VAULT_CLI1",
+    "encrypted_aes_keys": {
+      "FG000000001": "ZYlYMl78+IC7fdAlE+ORgaTYxTHaftcFJuRO1sGiHaRsJFYMIiwskwro2TJ9ej3xAlI/dlBSSsBwIVQMQrpV05oEyZvasurzphMHuBGNHAwVYniGqxnkdBW9274S38k2pR/jnPeV9aC0WuYh9+6vGx+3x8eIVv/+0tP5CZTPXaKAzNGVQ4Awo4+vB7vMe+HnNNThs+lJpj8dhAnUEPYQz0TumXo2kdlghA9kGzvLgh/j6Plj7Ot2fZhBhPi3mVAFUnJIQhUYX8b8pa5tYWSrtZgy2JBo4MtH3fRZynqrD56tcMNagEc7sasbsQ5POjFMPkyq7gOD6StRqwnlNDtkHQ==",
+      "FG000000002": "Jf2gUOQJbI5csjOhLHvpuWBjnm99tkkRJoyo0QkVXdNCmlUW+imL/e9BsmQdhvmsn4E0Em3AbNOkOMfEKXBsxQk9bMQW79SpblAE+czF8VMckhpd5Xz8gCVVcCYeTnvjpaFkH4hG6DAf8LvldyvbEyWayrLv+oRpq/OeeOkOuW/dQfLEHdky/APukqhqciJyAQoexw/r1Ltzuy7kSOeU/WHHIuqZqcNL/MtKYJD2/sgB7cZGxklXc72GLCG58xloTWl3rE6BvN6EaiqQQ7uXv9GB4X6wehkMmmRp8GpHW7wOw54vj5JPh/MhfxorcqDZmLxkj/t5HNZ53X6ytvO+LQ=="
+    },
+    "public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF5T1hUY0srZ0hMYXNmcHIvZlFqVQovK0tUN3h0SFN1VlpIQTJleVNCOThKbjh4YU80SDdGdmE0djM4WWdaRUUxdEN3ek9vQkoxc2tqVFV3ZC90KzlYClpQQWJEUHRWQ3JjQXpNUGljVFJWOHZpUkN1Y3FrNzBDaTBheE1rNEMrc3k0czZmWG8zRXBiMzNwcXdKZE9EZ0IKNHErS1JIYk9UQktrYU52bTBjM050VnFSdEd5SWdSRUQ0T0FWMmRNenB2WlhGUjdUb2Y2MzdHMmF1enN1SitmaQpBaUVlZkgrNlUyS1FMSms0c2VOR0tDeEhoSCtacGVnOG5IbjlldHhIRHdaelNQQjJ5NXZQUjdZUEw5aVZ0WkZJCnZ0cGNuSkpyc1E5ekpEQnh4M25CbU1MdGh0dmpDeXgzaXFrTmpUNnc2OStsY1FtUUlFek9kL2tSK0gvOWJuUTkKSndJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  }
+}
+
+2025-05-03 08:35:25,994 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "requester": "VAULT_CLI1",
+    "group_id": "G00001",
+    "target_user": "VAULT_CLI3",
+    "action": "group add-user confirm",
+    "encrypted_keys": {
+      "FG000000001": "r0JUa2zgbBgBK8Fd4Mk0t+Y1rTf8Ra+Ggm7U+G3yTE0bVvX1fnq7WLiIf/MAi6SgLKEpiZAKkIe6VlLJsoTTfO7kHSd0c+91K/mFJfP9ABnXQVC++PwNlM/wUG0gveWAFH/a/91gNyV+wY2PDaX3zdOYFG/rlMCmFmIIYQNs3GT/Wd7w2T0PKxY3eBHwl5DoPwGHdqn/Dvv01Q8RpMlrTtLrbHchdYzUxbFA9KElfmqVmnbPt1C3iHfJWblj2Q54wk2QpKlF7h5gvNc47J9uHQo1tGX3yiD8zSLZLvJEf9qyBVEa/jUrBaOqtCFKEoeXNOasgCbsLRqfv/iOiQxuWg==",
+      "FG000000002": "ZWH9Rt/HZICvKkg9g65Gbz1HZrEmRjzwhpah51TjMoudpkCLL5yJ2VwpblJH+xpOMFbk4MTC/mRU9tHYJEWVEG+Kb34yzsdZy+MLTasWdaxYNUc9/7rErLcqUELPbdR8e+w24GhpFgpk8YYBSO0ScCz4MF5FFlcRjsREiUe9FrBU7KG9Un/q/z73Dnh5lf6m5DQLLmh438UoUe9L+ni1qV2cleNI764UeDgk19qZLy2kS1VrUY7Cg3ut/Q6EzVlcu2qMVRSTVI5WL4z2TyMsPcMFa/TvIBkIjcVawnzxl+Fz6Yk23NsxliGkWlc/sQ25ma7frd950eNex3q8UUBQmQ=="
+    }
+  }
+}
+
+2025-05-03 08:35:26,011 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add user to group",
+    "msg": "[INFO] 2 ficheiros do grupo 'G00001' compartilhados com sucesso para o utilizador 'VAULT_CLI3'.",
+    "timestamp": "2025-05-03 | 08:35:26"
+  }
+}
+
+2025-05-03 08:35:44,270 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "group list",
+    "msg": "group list",
+    "timestamp": "2025-05-03 | 08:35:44"
+  }
+}
+
+2025-05-03 08:35:44,270 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "group list reply",
+    "msg": "G1 (ID: G00001, Permissão: R)",
+    "timestamp": "2025-05-03 | 08:35:44"
+  }
+}
+
+2025-05-03 08:35:52,943 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI3",
+    "target_type": "group",
+    "target_id": "G00001",
+    "msg": "Pedido de listagem de ficheiros de group 'G00001'"
+  }
+}
+
+2025-05-03 08:35:52,943 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI3",
+    "target_type": "group",
+    "target_id": "G00001",
+    "msg": "Pedido de listagem de ficheiros de group 'G00001'"
+  }
+}
+
+2025-05-03 08:35:59,740 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "read",
+    "file_id": "FG000000001",
+    "requester": "VAULT_CLI3",
+    "msg": "Read file",
+    "timestamp": "2025-05-03 | 08:35:59"
+  }
+}
+
+2025-05-03 08:35:59,747 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read_reply",
+    "file_id": "FG000000001",
+    "file_content": "7jE3UdCBVhYY9H0niXE79l47BC9wIQSgKlukC0uijhD56hm6z17jVYkAT+RfdBFzrbqN008D0fo5X8/P",
+    "aes_key": "r0JUa2zgbBgBK8Fd4Mk0t+Y1rTf8Ra+Ggm7U+G3yTE0bVvX1fnq7WLiIf/MAi6SgLKEpiZAKkIe6VlLJsoTTfO7kHSd0c+91K/mFJfP9ABnXQVC++PwNlM/wUG0gveWAFH/a/91gNyV+wY2PDaX3zdOYFG/rlMCmFmIIYQNs3GT/Wd7w2T0PKxY3eBHwl5DoPwGHdqn/Dvv01Q8RpMlrTtLrbHchdYzUxbFA9KElfmqVmnbPt1C3iHfJWblj2Q54wk2QpKlF7h5gvNc47J9uHQo1tGX3yiD8zSLZLvJEf9qyBVEa/jUrBaOqtCFKEoeXNOasgCbsLRqfv/iOiQxuWg=="
+  }
+}
+
+2025-05-03 08:36:24,942 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "replace",
+    "file": "FG000000001",
+    "file_path": "../TestFiles/Test1.txt",
+    "msg": "Replace file!",
+    "timestamp": "2025-05-03 | 08:36:24"
+  }
+}
+
+2025-05-03 08:36:47,425 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "replace",
+    "file": "FG000000001",
+    "file_path": "../TestFiles/Test1.txt",
+    "msg": "Replace file!",
+    "timestamp": "2025-05-03 | 08:36:47"
+  }
+}
+
+2025-05-03 08:36:47,426 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "replace",
+    "file_path": "../TestFiles/Test1.txt",
+    "file": "FG000000001",
+    "user": "User X (SSI Vault Client X)",
+    "msg": {
+      "VAULT_CLI1": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtImM+XTzNobVHnk2SiCX\nsFcZ/Xih90yRNxNoG0+NEx9ehBjXCp0Ya9H9HLvJc6aruDVvhNZPOytYwvQ1vFAA\nCUfWykA3RdHoix8YGYIYHasYnqXDSfN9oPjVPIufJOXoJtpqz8TTfzjo6kdSkd8V\n1VZAN1zqEFfLONDtQ5NtEMBMrvhNBK8NmekkK+t1txEaJamVnpyi8D4Y96aZvpqT\n5Di0uqeE64cS865Cl7eUF9+crD9CbfOrqb0IrWNjmnwuIkjcrZ0mdr4zvde/6xkk\nL3BgupwvoM3V3fayfqOlY9GOu+t1dga1gnRPvjx1++Y/71JPRFeDjao8FoX1EvEs\nzQIDAQAB\n-----END PUBLIC KEY-----\n",
+      "VAULT_CLI3": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyOXTcK+gHLasfpr/fQjU\n/+KT7xtHSuVZHA2eySB98Jn8xaO4H7Fva4v38YgZEE1tCwzOoBJ1skjTUwd/t+9X\nZPAbDPtVCrcAzMPicTRV8viRCucqk70Ci0axMk4C+sy4s6fXo3Epb33pqwJdODgB\n4q+KRHbOTBKkaNvm0c3NtVqRtGyIgRED4OAV2dMzpvZXFR7Tof637G2auzsuJ+fi\nAiEefH+6U2KQLJk4seNGKCxHhH+Zpeg8nHn9etxHDwZzSPB2y5vPR7YPL9iVtZFI\nvtpcnJJrsQ9zJDBxx3nBmMLthtvjCyx3iqkNjT6w69+lcQmQIEzOd/kR+H/9bnQ9\nJwIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    "timestamp": "2025-05-03 | 08:36:47"
+  }
+}
+
+2025-05-03 08:36:47,463 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "replace-finalize",
+    "file_id": "FG000000001",
+    "file_name": "Test1.txt",
+    "file_size": 32,
+    "encrypted_file_content": "Mzz9lLatrFmkNlVKI4zwfee9JY73tlJPZLWKipDuvE2kw+us/0Leca7M1cLtNFuSDJb0mOqs8g4fScL4",
+    "encrypted_aes_keys": {
+      "VAULT_CLI1": "ScqggqhW5HDqGpPV+Ez9bpa+u5IjaCnDwyxLvcoiRSZFtNQhYqkneTeEiLoZeEfJ6HT5YTzPEnzncMBLmZT/gsaw9e3GZ6l+X395LtG0AMfUXDnsvu9s+w4scGHj11qT0r5B6C0DGcX05VbMDFUhA1f2j0rdLWMgPjkgg7yHeN1xdv+TbS9iePxBl/t/NpOzuxi/eqwkV/AwK2pzAjTJAObzbhYYVL1PlSWXWfF9QU7UznxYRjC8mNDZVovlK2GwrVB/SuOHoDyJdXY9qxQbMoimTqWQbXlURW9MGqxzxgtq6HiQEMLpre5NPQQTa9FMXQkNgUuUzrM5vjg2mTlrow==",
+      "VAULT_CLI3": "fTgjB7VzhcfEhm0DkZcENI2AYhZQoXwyYneXELd3a03G+PEX+naCC9RGZCT/0EyfFw3YRt7DRouYQAKe5+m3RA590xMOThoC6JaQOnnXJqbJBuZgZ/dCXCfkAB9X/9xmBZ9h9JXmVplp9vuNHDTdr27ZnkjtHXqs1OIZQxykmcUjzN2VmSF1yCerYacY4up/kq62b35uZ8+Z8ZSsE2Ik3le0ga06+s1ffFTwKcNsEUHcTcVuBXEYpMLSYWPdMgF3e5zkjcolK6VnpRIY3OIAf3pz+NPK78Q/CcraipSj5lbDIL/i7GEwLp7mMmFxQFwYJLx66FNP6axwvGtcTlsdQQ=="
+    }
+  }
+}
+
+2025-05-03 08:36:47,464 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "status": "OK",
+    "msg": "Ficheiro substituído com sucesso."
+  }
+}
+
+2025-05-03 08:37:07,946 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "group list",
+    "msg": "group list",
+    "timestamp": "2025-05-03 | 08:37:07"
+  }
+}
+
+2025-05-03 08:37:07,946 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "group list reply",
+    "msg": "G1 (ID: G00001, Permissão: RW)",
+    "timestamp": "2025-05-03 | 08:37:07"
+  }
+}
+
+2025-05-03 08:37:13,320 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI1",
+    "target_type": "group",
+    "target_id": "G00001",
+    "msg": "Pedido de listagem de ficheiros de group 'G00001'"
+  }
+}
+
+2025-05-03 08:37:13,321 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI1",
+    "target_type": "group",
+    "target_id": "G00001",
+    "msg": "Pedido de listagem de ficheiros de group 'G00001'"
+  }
+}
+
+2025-05-03 08:37:30,696 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "read",
+    "file_id": "FG000000001",
+    "requester": "VAULT_CLI3",
+    "msg": "Read file",
+    "timestamp": "2025-05-03 | 08:37:30"
+  }
+}
+
+2025-05-03 08:37:30,704 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read_reply",
+    "file_id": "FG000000001",
+    "file_content": "Mzz9lLatrFmkNlVKI4zwfee9JY73tlJPZLWKipDuvE2kw+us/0Leca7M1cLtNFuSDJb0mOqs8g4fScL4",
+    "aes_key": "fTgjB7VzhcfEhm0DkZcENI2AYhZQoXwyYneXELd3a03G+PEX+naCC9RGZCT/0EyfFw3YRt7DRouYQAKe5+m3RA590xMOThoC6JaQOnnXJqbJBuZgZ/dCXCfkAB9X/9xmBZ9h9JXmVplp9vuNHDTdr27ZnkjtHXqs1OIZQxykmcUjzN2VmSF1yCerYacY4up/kq62b35uZ8+Z8ZSsE2Ik3le0ga06+s1ffFTwKcNsEUHcTcVuBXEYpMLSYWPdMgF3e5zkjcolK6VnpRIY3OIAf3pz+NPK78Q/CcraipSj5lbDIL/i7GEwLp7mMmFxQFwYJLx66FNP6axwvGtcTlsdQQ=="
+  }
+}
+
+2025-05-03 08:37:34,868 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI3",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:37:34"
+  }
+}
+
+2025-05-03 08:37:34,868 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:37:34"
+  }
+}
+
+2025-05-03 08:37:37,326 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI2",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:37:37"
+  }
+}
+
+2025-05-03 08:37:37,326 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:37:37"
+  }
+}
+
+2025-05-03 08:37:39,708 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI1",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:37:39"
+  }
+}
+
+2025-05-03 08:37:39,708 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:37:39"
+  }
+}
+
+2025-05-03 08:38:11,149 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:38:12,775 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:38:12"
+  }
+}
+
+2025-05-03 08:38:17,517 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "create group",
+    "group_name": "g1",
+    "msg": "cria novo grupo",
+    "timestamp": "2025-05-03 | 08:38:17"
+  }
+}
+
+2025-05-03 08:38:17,520 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "create group",
+    "msg": "[INFO] Grupo 'g1' com id G00001 criado com sucesso com 'VAULT_CLI1' como administrador.",
+    "timestamp": "2025-05-03 | 08:38:17"
+  }
+}
+
+2025-05-03 08:38:20,803 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "delete group",
+    "group_name": "g1",
+    "msg": "Apaga grupo",
+    "timestamp": "2025-05-03 | 08:38:20"
+  }
+}
+
+2025-05-03 08:38:20,804 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "delete group",
+    "msg": "[ERRO] O grupo com ID 'g1' não existe.",
+    "timestamp": "2025-05-03 | 08:38:20"
+  }
+}
+
+2025-05-03 08:38:26,200 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "delete group",
+    "group_name": "G00001",
+    "msg": "Apaga grupo",
+    "timestamp": "2025-05-03 | 08:38:26"
+  }
+}
+
+2025-05-03 08:38:26,202 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "delete group",
+    "msg": "[INFO] Grupo 'g1' com ID 'G00001' removido com sucesso.",
+    "timestamp": "2025-05-03 | 08:38:26"
+  }
+}
+
+2025-05-03 08:38:46,897 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:38:46"
+  }
+}
+
+2025-05-03 08:38:52,278 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add user to group",
+    "group_id": "G00001",
+    "permissions": "R",
+    "user": "VAULT_CLI2",
+    "owner": "VAULT_CLI1",
+    "msg": "adicionar user ao grupo",
+    "timestamp": "2025-05-03 | 08:38:52"
+  }
+}
+
+2025-05-03 08:38:52,278 - ERROR - [VAULT_CLI1] Erro ao desencriptar/processar: too many values to unpack (expected 2)
+
+2025-05-03 08:41:19,840 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<handle_echo() done, defined at C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py:422> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[StreamReaderProtocol.connection_made.<locals>.callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py:248]>
+2025-05-03 08:41:25,538 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:41:27,283 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:41:27"
+  }
+}
+
+2025-05-03 08:41:31,061 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add user to group",
+    "group_id": "G00001",
+    "permissions": "R",
+    "user": "VAULT_CLI2",
+    "owner": "VAULT_CLI1",
+    "msg": "adicionar user ao grupo",
+    "timestamp": "2025-05-03 | 08:41:31"
+  }
+}
+
+2025-05-03 08:41:31,062 - ERROR - [VAULT_CLI1] Erro ao desencriptar/processar: cannot access local variable 'aes_keys' where it is not associated with a value
+
+2025-05-03 08:42:15,422 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:42:16,711 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:42:16"
+  }
+}
+
+2025-05-03 08:42:17,621 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add user to group",
+    "group_id": "G00001",
+    "permissions": "R",
+    "user": "VAULT_CLI2",
+    "owner": "VAULT_CLI1",
+    "msg": "adicionar user ao grupo",
+    "timestamp": "2025-05-03 | 08:42:17"
+  }
+}
+
+2025-05-03 08:42:27,442 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "create group",
+    "group_name": "g1",
+    "msg": "cria novo grupo",
+    "timestamp": "2025-05-03 | 08:42:27"
+  }
+}
+
+2025-05-03 08:42:27,444 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "create group",
+    "msg": "[INFO] Grupo 'g1' com id G00002 criado com sucesso com 'VAULT_CLI1' como administrador.",
+    "timestamp": "2025-05-03 | 08:42:27"
+  }
+}
+
+2025-05-03 08:42:33,990 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add user to group",
+    "group_id": "G00001",
+    "permissions": "R",
+    "user": "VAULT_CLI2",
+    "owner": "VAULT_CLI1",
+    "msg": "adicionar user ao grupo",
+    "timestamp": "2025-05-03 | 08:42:33"
+  }
+}
+
+2025-05-03 08:42:41,379 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add user to group",
+    "group_id": "G00002",
+    "permissions": "R",
+    "user": "VAULT_CLI2",
+    "owner": "VAULT_CLI1",
+    "msg": "adicionar user ao grupo",
+    "timestamp": "2025-05-03 | 08:42:41"
+  }
+}
+
+2025-05-03 08:42:41,380 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "group add-user finalize",
+    "group_id": "G00002",
+    "user": "VAULT_CLI2",
+    "requester": "VAULT_CLI1",
+    "encrypted_aes_keys": {},
+    "public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF4Z2pZbnIxZDVxRERTVWNxVG93OQpGTzRlenlPLzBGL29wc3ZtMVl3cDZsWWhkQ1hlV09NZXE5bldQNHlwSU9zbFFkSEQ2N0JCc3NTTXdNTm5ITEhqCjdZekZoQjl4ZElaSHcvbzc3L1h4Ym5OZXkyQitBUS9NMVZhRVpyaHNSeWd4Q0ZYVGFVdGJNTW9aZW5Cb1FtWUwKbURvcitXeUJ5Rnd1WmloaHB3MERsa05zVThWRVczQWY0aUZlY2s1UFRZMHgrWVlpeC9ZSU92eC8wTkkwZ21MRApkTXFybGY3ZkFMbFBrd2NFMk40K2x2VWl5Sk5hQ20rbG96WXFYdURPV2ZDYTVGaElwQXJldUdhZlRISFgvQ2NKCllTTnVOWERLVjdLbHQwSWhHbldtYi9JYWtuM1Nsb0o4QUxiNzd5YnBMNDVGS0ozcTFmcjhnWmNYUi84ZENFMjMKcndJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  }
+}
+
+2025-05-03 08:42:41,381 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "requester": "VAULT_CLI1",
+    "group_id": "G00002",
+    "target_user": "VAULT_CLI2",
+    "action": "group add-user confirm",
+    "encrypted_keys": {}
+  }
+}
+
+2025-05-03 08:42:41,397 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add user to group",
+    "msg": "[INFO] 0 ficheiros do grupo 'G00002' compartilhados com sucesso para o utilizador 'VAULT_CLI2'.",
+    "timestamp": "2025-05-03 | 08:42:41"
+  }
+}
+
+2025-05-03 08:43:21,673 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "remove user from group",
+    "group_id": "G00002",
+    "user": "VAULT_CLI2",
+    "owner": "User X (SSI Vault Client X)",
+    "msg": "remover user do grupo",
+    "timestamp": "2025-05-03 | 08:43:21"
+  }
+}
+
+2025-05-03 08:43:21,674 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "delete group",
+    "msg": "[INFO] Utilizador 'VAULT_CLI2' removido do grupo 'G00002' com sucesso.",
+    "timestamp": "2025-05-03 | 08:43:21"
+  }
+}
+
+2025-05-03 08:43:27,213 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:43:27"
+  }
+}
+
+2025-05-03 08:43:29,045 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "group list",
+    "msg": "group list",
+    "timestamp": "2025-05-03 | 08:43:29"
+  }
+}
+
+2025-05-03 08:43:29,045 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "group list reply",
+    "msg": "Não pertence a nenhum grupo.",
+    "timestamp": "2025-05-03 | 08:43:29"
+  }
+}
+
+2025-05-03 08:43:33,900 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI2",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:43:33"
+  }
+}
+
+2025-05-03 08:43:33,900 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:43:33"
+  }
+}
+
+2025-05-03 08:43:36,071 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI1",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:43:36"
+  }
+}
+
+2025-05-03 08:43:36,071 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:43:36"
+  }
+}
+
+2025-05-03 08:43:42,211 - DEBUG - Using proactor: IocpProactor
+2025-05-03 08:43:43,631 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 08:43:43"
+  }
+}
+
+2025-05-03 08:43:44,857 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "remove user from group",
+    "group_id": "G00002",
+    "user": "VAULT_CLI2",
+    "owner": "User X (SSI Vault Client X)",
+    "msg": "remover user do grupo",
+    "timestamp": "2025-05-03 | 08:43:44"
+  }
+}
+
+2025-05-03 08:43:44,857 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "delete group",
+    "msg": "[ERRO] O utilizador 'VAULT_CLI2' não é membro do grupo 'G00002'.",
+    "timestamp": "2025-05-03 | 08:43:44"
+  }
+}
+
+2025-05-03 08:43:48,935 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI1",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 08:43:48"
+  }
+}
+
+2025-05-03 08:43:48,935 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 08:43:48"
+  }
+}
+
+2025-05-03 09:17:46,459 - DEBUG - Using proactor: IocpProactor
+2025-05-03 09:17:49,139 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:17:49"
+  }
+}
+
+2025-05-03 09:17:51,088 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:17:51"
+  }
+}
+
+2025-05-03 09:17:55,754 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "create group",
+    "group_name": "g1",
+    "msg": "cria novo grupo",
+    "timestamp": "2025-05-03 | 09:17:55"
+  }
+}
+
+2025-05-03 09:17:55,758 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "create group",
+    "msg": "[INFO] Grupo 'g1' com id G00001 criado com sucesso com 'VAULT_CLI1' como administrador.",
+    "timestamp": "2025-05-03 | 09:17:55"
+  }
+}
+
+2025-05-03 09:18:05,770 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:18:05"
+  }
+}
+
+2025-05-03 09:18:20,425 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI3",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 09:18:20"
+  }
+}
+
+2025-05-03 09:18:20,425 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 09:18:20"
+  }
+}
+
+2025-05-03 09:18:47,128 - ERROR - Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport fd=1260>
+Traceback (most recent call last):
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 457, in run_server
+    loop.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 434, in handle_echo
+    if not data: continue
+                 ^^^^^^^^
+KeyboardInterrupt
+2025-05-03 09:18:47,131 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "JhVpHVktXw7+lHhQtqoLv7NCYDpu+8dDhlVd9jNcfzk0mbhtWemSTy6/C9pTkwTvvIBFPoZRfIwm++oV",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "KWzIi7WVoViQhlgpNhyCzlS2uxwNpVgQeFO15gxleUDxGJL4Sw6vRCHY3R0HgeDDK5t7c+n+Qk7DwdiVN7yvE7j21aFTsh6AWrJkZMh9XXk5wGmlvkFu7iMclYuP1rvwimQJi+wkCVEf0yV8KKaqiJ7hEDaXj8VQKzk1nj77YXbYOFIXcKV1U60sxZ7OO6qrFOW+sK+l4Iw7200FC4SVquYCdsfdm+WcszGAPP/JDp9e86sWATIYihzuyBaSoSkyoP65tB5fEJvBm9bfSjynwOsJnJvWaaPdvAfWs/bOJtvaTPQgICWNlJ9vMkzDEFGhRzeCBD3QXNEiiEs3JMnYKQ=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 09:18:34"
+  }
+}
+
+2025-05-03 09:18:47,140 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "JhVpHVktXw7+lHhQtqoLv7NCYDpu+8dDhlVd9jNcfzk0mbhtWemSTy6/C9pTkwTvvIBFPoZRfIwm++oV",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "KWzIi7WVoViQhlgpNhyCzlS2uxwNpVgQeFO15gxleUDxGJL4Sw6vRCHY3R0HgeDDK5t7c+n+Qk7DwdiVN7yvE7j21aFTsh6AWrJkZMh9XXk5wGmlvkFu7iMclYuP1rvwimQJi+wkCVEf0yV8KKaqiJ7hEDaXj8VQKzk1nj77YXbYOFIXcKV1U60sxZ7OO6qrFOW+sK+l4Iw7200FC4SVquYCdsfdm+WcszGAPP/JDp9e86sWATIYihzuyBaSoSkyoP65tB5fEJvBm9bfSjynwOsJnJvWaaPdvAfWs/bOJtvaTPQgICWNlJ9vMkzDEFGhRzeCBD3QXNEiiEs3JMnYKQ=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 09:18:34",
+    "file_id": "FU000000001"
+  }
+}
+
+2025-05-03 09:18:47,144 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<handle_echo() running at C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py:440> wait_for=<Future finished result=None> cb=[StreamReaderProtocol.connection_made.<locals>.callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py:248]>
+2025-05-03 09:18:47,145 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<handle_echo() running at C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py:440> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[StreamReaderProtocol.connection_made.<locals>.callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py:248]>
+2025-05-03 09:19:08,760 - DEBUG - Using proactor: IocpProactor
+2025-05-03 09:19:10,896 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:19:10"
+  }
+}
+
+2025-05-03 09:19:12,428 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:19:12"
+  }
+}
+
+2025-05-03 09:19:23,764 - ERROR - Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport fd=1280>
+Traceback (most recent call last):
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 457, in run_server
+    loop.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 434, in handle_echo
+    if not data: continue
+                 ^^^^^^^^
+KeyboardInterrupt
+2025-05-03 09:19:23,766 - DEBUG - {
+  "direction": "RECEIVED",
+  "content": "eexit"
+}
+
+2025-05-03 09:19:23,766 - WARNING - [VAULT_CLI1] Mensagem não era JSON válida.
+
+2025-05-03 09:19:23,766 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI2",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 09:19:21"
+  }
+}
+
+2025-05-03 09:19:23,767 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 09:19:23"
+  }
+}
+
+2025-05-03 09:19:23,770 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<handle_echo() running at C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py:440> wait_for=<Future finished result=None> cb=[StreamReaderProtocol.connection_made.<locals>.callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py:248]>
+2025-05-03 09:20:06,751 - DEBUG - Using proactor: IocpProactor
+2025-05-03 09:23:45,869 - ERROR - Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport fd=1236>
+Traceback (most recent call last):
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 457, in run_server
+    loop.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 434, in handle_echo
+    if not data: continue
+                 ^^^^^^^^
+KeyboardInterrupt
+2025-05-03 09:23:45,871 - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] Uma ligação existente foi forçada a fechar pelo anfitrião remoto
+2025-05-03 09:23:48,533 - DEBUG - Using proactor: IocpProactor
+2025-05-03 09:23:51,311 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:23:51"
+  }
+}
+
+2025-05-03 09:23:56,068 - ERROR - Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport closed>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome de rede especificado já não está disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 432, in handle_echo
+    data = await reader.read(max_msg_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 498, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome de rede especificado já não está disponível
+2025-05-03 09:24:02,378 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "XfIsoEFaW8feAM8Rbf6WMJlbBnV8MpjEOKTFqic/xj5Whu5NLWu6DCnEg6umln7AWq21zLlCqKOlpSnj",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "mMVBf2uGW/1UUJM2DR/9yzVY4DhaLHFrAG7XnnUn8Sd2QFAp0QVdz0UlFWtbRb4MRZUPDueubV6eWuHy5ujfMWkbICq5B+FfC5lAb27IwAvsrX5MIssy/fyrQv84fssR6nw5Vtq3aoRHsH8Xo3j534nlbRHshVsNDlDd7Sdl3ydEhUORlMYyYnM+1P/uekbJxfNcQCrNGm7wFob86UJ1ggGpfX4pXD6iNbTKDOSS4LamFFxiNbowoRIjCJN1YtxzKB7Dc1Et59cOfAOyNSCCrwnj3pT/VtqHBKM0VeQKrQJTB8vJdcf3SzYaDsb0+s3l+NJgTqYkkLBr+IMPoGQM/w=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 09:24:02"
+  }
+}
+
+2025-05-03 09:24:02,380 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "XfIsoEFaW8feAM8Rbf6WMJlbBnV8MpjEOKTFqic/xj5Whu5NLWu6DCnEg6umln7AWq21zLlCqKOlpSnj",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "mMVBf2uGW/1UUJM2DR/9yzVY4DhaLHFrAG7XnnUn8Sd2QFAp0QVdz0UlFWtbRb4MRZUPDueubV6eWuHy5ujfMWkbICq5B+FfC5lAb27IwAvsrX5MIssy/fyrQv84fssR6nw5Vtq3aoRHsH8Xo3j534nlbRHshVsNDlDd7Sdl3ydEhUORlMYyYnM+1P/uekbJxfNcQCrNGm7wFob86UJ1ggGpfX4pXD6iNbTKDOSS4LamFFxiNbowoRIjCJN1YtxzKB7Dc1Et59cOfAOyNSCCrwnj3pT/VtqHBKM0VeQKrQJTB8vJdcf3SzYaDsb0+s3l+NJgTqYkkLBr+IMPoGQM/w=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 09:24:02",
+    "file_id": "FU000000002"
+  }
+}
+
+2025-05-03 09:24:08,981 - ERROR - Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport closed>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome de rede especificado já não está disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 432, in handle_echo
+    data = await reader.read(max_msg_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 498, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome de rede especificado já não está disponível
+2025-05-03 09:24:14,029 - ERROR - Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport closed>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] O nome de rede especificado já não está disponível
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py", line 432, in handle_echo
+    data = await reader.read(max_msg_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 498, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] O nome de rede especificado já não está disponível
+2025-05-03 09:24:29,153 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<handle_echo() running at C:\Users\carli\Desktop\2425-G04\trabalho-pratico\scripts\Server.py:440> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[StreamReaderProtocol.connection_made.<locals>.callback() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py:248]>
+2025-05-03 09:26:24,168 - DEBUG - Using proactor: IocpProactor
+2025-05-03 09:26:25,878 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:26:25"
+  }
+}
+
+2025-05-03 09:26:29,442 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:26:29"
+  }
+}
+
+2025-05-03 09:26:36,798 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:26:36"
+  }
+}
+
+2025-05-03 09:26:46,557 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "KyZhgPhZtIIF2vvgvEvL2msTxhTy5ftd5g/oOt2mZ1L5vXMaf3KmBNHdk64YPvQ3Yr3wo30pHtAVnSqO",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "Wby8eQDOe39/hykxyN2R7JiEoazpaAtQK+y+W21M4aHSO0WBXl86DPD861CI271WOHJCxOggRE5d3uA3LDFMV6ZczVDCMypj/FbrxiFp1ZoZdnHtCZLYMxXSDKllpGHuYsgi9OBG3YV3qzDa0Li4B4cQzzLmLlEQZ+9vD2hIF79WvQdiqiEhH8WCGsU3keHA+dwimWeTp3OM8aLYaKxiHbFc2sQ+A9QCrvcCnL91GFsVI7m3F/ZwE9uuJJgPX2P6A5H4lTvm+7fvdF6hZ3GWqdmfOnARzG8E7uA87ZMlWW+JWDu7HbugrLGpj1INZGTavOtvOaJSxPWA6VQhF/K/Iw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 09:26:46"
+  }
+}
+
+2025-05-03 09:26:46,560 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add",
+    "users": {
+      "VAULT_CLI1": "RW"
+    },
+    "file": "Test1.txt",
+    "file_content": "KyZhgPhZtIIF2vvgvEvL2msTxhTy5ftd5g/oOt2mZ1L5vXMaf3KmBNHdk64YPvQ3Yr3wo30pHtAVnSqO",
+    "file_size": 32,
+    "encrypted_aes_key": {
+      "VAULT_CLI1": "Wby8eQDOe39/hykxyN2R7JiEoazpaAtQK+y+W21M4aHSO0WBXl86DPD861CI271WOHJCxOggRE5d3uA3LDFMV6ZczVDCMypj/FbrxiFp1ZoZdnHtCZLYMxXSDKllpGHuYsgi9OBG3YV3qzDa0Li4B4cQzzLmLlEQZ+9vD2hIF79WvQdiqiEhH8WCGsU3keHA+dwimWeTp3OM8aLYaKxiHbFc2sQ+A9QCrvcCnL91GFsVI7m3F/ZwE9uuJJgPX2P6A5H4lTvm+7fvdF6hZ3GWqdmfOnARzG8E7uA87ZMlWW+JWDu7HbugrLGpj1INZGTavOtvOaJSxPWA6VQhF/K/Iw=="
+    },
+    "msg": "Upload de ficheiro encriptado",
+    "timestamp": "2025-05-03 | 09:26:46",
+    "file_id": "FU000000001"
+  }
+}
+
+2025-05-03 09:27:04,546 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI1",
+    "user": "VAULT_CLI2",
+    "permission": "R",
+    "msg": "Share personal file",
+    "timestamp": "2025-05-03 | 09:27:04"
+  }
+}
+
+2025-05-03 09:27:04,547 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI1",
+    "target_user": "VAULT_CLI2",
+    "encrypted_aes_key": "Wby8eQDOe39/hykxyN2R7JiEoazpaAtQK+y+W21M4aHSO0WBXl86DPD861CI271WOHJCxOggRE5d3uA3LDFMV6ZczVDCMypj/FbrxiFp1ZoZdnHtCZLYMxXSDKllpGHuYsgi9OBG3YV3qzDa0Li4B4cQzzLmLlEQZ+9vD2hIF79WvQdiqiEhH8WCGsU3keHA+dwimWeTp3OM8aLYaKxiHbFc2sQ+A9QCrvcCnL91GFsVI7m3F/ZwE9uuJJgPX2P6A5H4lTvm+7fvdF6hZ3GWqdmfOnARzG8E7uA87ZMlWW+JWDu7HbugrLGpj1INZGTavOtvOaJSxPWA6VQhF/K/Iw==",
+    "public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF4Z2pZbnIxZDVxRERTVWNxVG93OQpGTzRlenlPLzBGL29wc3ZtMVl3cDZsWWhkQ1hlV09NZXE5bldQNHlwSU9zbFFkSEQ2N0JCc3NTTXdNTm5ITEhqCjdZekZoQjl4ZElaSHcvbzc3L1h4Ym5OZXkyQitBUS9NMVZhRVpyaHNSeWd4Q0ZYVGFVdGJNTW9aZW5Cb1FtWUwKbURvcitXeUJ5Rnd1WmloaHB3MERsa05zVThWRVczQWY0aUZlY2s1UFRZMHgrWVlpeC9ZSU92eC8wTkkwZ21MRApkTXFybGY3ZkFMbFBrd2NFMk40K2x2VWl5Sk5hQ20rbG96WXFYdURPV2ZDYTVGaElwQXJldUdhZlRISFgvQ2NKCllTTnVOWERLVjdLbHQwSWhHbldtYi9JYWtuM1Nsb0o4QUxiNzd5YnBMNDVGS0ozcTFmcjhnWmNYUi84ZENFMjMKcndJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  }
+}
+
+2025-05-03 09:27:04,548 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "requester": "VAULT_CLI1",
+    "file_id": "FU000000001",
+    "target_user": "VAULT_CLI2",
+    "action": "share_finalize",
+    "encrypted_key": "KLcwbhW3bbsdDdV8VizikAfYCfNMlmT428LX+Nud2UtEuHTghs2wo2MoyT5qFIKqoTmlZeD7R9LRZVpS2tZFK1hb621hO1CtpCuXVymc0vPuhfTUqm7LuJnx6ju/UBZ5pGIg/oYWL1oZpiAicj/uiEv1K5ltsy2J+sJHNG1uy57JiYLWmv3ounRyfHcLjcd0mFRwidbuOhOvx961fQ8o+nqn4SHUIefaRqHjQMaBI0sd28zWkpD72Tfix3P179O7QRdjHD8WipRCpIJTzswk0x+boqLpTpgan/a9Tln0b0Klb1jgBe1H/PPFA9yiIVHwxkUjATIj1v5/G/fFhaRpow=="
+  }
+}
+
+2025-05-03 09:27:04,557 - INFO - {
+  "direction": "SENT",
+  "content": "[INFO] Ficheiro 'FU000000001' compartilhado com sucesso para o utilizador 'VAULT_CLI2'."
+}
+
+2025-05-03 09:27:20,791 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI2",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI2'"
+  }
+}
+
+2025-05-03 09:27:20,792 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI2",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI2'"
+  }
+}
+
+2025-05-03 09:27:23,870 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI1",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI1'"
+  }
+}
+
+2025-05-03 09:27:23,871 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "list",
+    "requester": "VAULT_CLI2",
+    "target_type": "user",
+    "target_id": "VAULT_CLI1",
+    "msg": "Pedido de listagem de ficheiros de user 'VAULT_CLI1'"
+  }
+}
+
+2025-05-03 09:27:30,529 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "read",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI2",
+    "msg": "Read file",
+    "timestamp": "2025-05-03 | 09:27:30"
+  }
+}
+
+2025-05-03 09:27:30,538 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read_reply",
+    "file_id": "FU000000001",
+    "file_content": "KyZhgPhZtIIF2vvgvEvL2msTxhTy5ftd5g/oOt2mZ1L5vXMaf3KmBNHdk64YPvQ3Yr3wo30pHtAVnSqO",
+    "aes_key": "KLcwbhW3bbsdDdV8VizikAfYCfNMlmT428LX+Nud2UtEuHTghs2wo2MoyT5qFIKqoTmlZeD7R9LRZVpS2tZFK1hb621hO1CtpCuXVymc0vPuhfTUqm7LuJnx6ju/UBZ5pGIg/oYWL1oZpiAicj/uiEv1K5ltsy2J+sJHNG1uy57JiYLWmv3ounRyfHcLjcd0mFRwidbuOhOvx961fQ8o+nqn4SHUIefaRqHjQMaBI0sd28zWkpD72Tfix3P179O7QRdjHD8WipRCpIJTzswk0x+boqLpTpgan/a9Tln0b0Klb1jgBe1H/PPFA9yiIVHwxkUjATIj1v5/G/fFhaRpow=="
+  }
+}
+
+2025-05-03 09:28:41,638 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "create group",
+    "group_name": "g1",
+    "msg": "cria novo grupo",
+    "timestamp": "2025-05-03 | 09:28:41"
+  }
+}
+
+2025-05-03 09:28:41,640 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "create group",
+    "msg": "[INFO] Grupo 'g1' com id G00001 criado com sucesso com 'VAULT_CLI3' como administrador.",
+    "timestamp": "2025-05-03 | 09:28:41"
+  }
+}
+
+2025-05-03 09:29:02,507 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add file to group vault",
+    "group_id": "G00001",
+    "file": "Test3.txt",
+    "file_content": "yMicEVNBe7mXfriJYH2WeH+7vNk/dxyi4iRv5Hf22hvAsEte7w1heTvsrNOSi0G2GDmBIqQ2oQy+JkpE",
+    "file_size": 32,
+    "user": "User X (SSI Vault Client X)",
+    "file_path": "/newFile.txt",
+    "encrypted_key": {
+      "VAULT_CLI3": "MlF0sBMOcGJGu7Wt0QNKlwJ2ESwIW//WL3Wt4gNSNTvgBSpt8PZ5Cr2YM2yY3YTiZ3LoC9YKtJRVzEl3iCNtNxME436yL8jX7rvuI9zxKq6pJT8GV2nt1h3iCNdslTA9haVUzNeIKC+ZaPXnDkTxZVVmLLr5l6uRNIbulVvRLzXtt2NVKJ39U1sClxV3qzuoGP9xqsyGGmA4wAE85xfAeuAjzOi+gasj+7j77yu2g3+CSL4eiks9JTSfz7E8hC6ToPiGz1kUSvW5rz6pcvhWM+RMDteQrFivi7aiMRvkgiSba7ZzNH150qUIRO89RO9Yi8FXy5BAGFsmbYb7NsNb1Q=="
+    },
+    "msg": "adiconar ficheiro ao cofre do grupo",
+    "timestamp": "2025-05-03 | 09:29:02"
+  }
+}
+
+2025-05-03 09:29:02,509 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add file to group vault",
+    "msg": "FG000000001",
+    "timestamp": "2025-05-03 | 09:29:02"
+  }
+}
+
+2025-05-03 09:29:10,373 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add file to group vault",
+    "group_id": "G00001",
+    "file": "Test2.txt",
+    "file_content": "BbRc4Ps+6pjg64IEMNypIXnvqY33X8FwyTPCkR9bbpGVcud9VNpHO2NBSFM9dF9tM7fq0Ai2BJKoJGek",
+    "file_size": 32,
+    "user": "User X (SSI Vault Client X)",
+    "file_path": "/newFile.txt",
+    "encrypted_key": {
+      "VAULT_CLI3": "imaZWjTRqPhrhktbFJaXWR1BL2TSTUkVZZ2K3MG4AegHElIGedeKN2Vb+kNE+jimwTQONdlFhrNT9kXi9hLa6TMoE/rvccDKRpRAlhMI1uZymKiUvae+HmUn67RE+PUdv97Sk1uym4AJyGQerhJBZvykDtjPCvSKOZ+Gy1bg6Xui5XDH/Q4gXzHjSTcu6lzOwIyZiac+zXWlnfQPp2W+2+Ksq2jcxLfcoY9aodUsC2sgkKjcZUoTz8cE2SnV0BsXcdsUPscu60hJRtWd4mpsnoUY0cmG8NxXeY3IOhB8CjkTJNcZrWq+7bY/dHQ0u2DNPAkbseaF5Bu8QgtZU69ykQ=="
+    },
+    "msg": "adiconar ficheiro ao cofre do grupo",
+    "timestamp": "2025-05-03 | 09:29:10"
+  }
+}
+
+2025-05-03 09:29:10,375 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add file to group vault",
+    "msg": "FG000000002",
+    "timestamp": "2025-05-03 | 09:29:10"
+  }
+}
+
+2025-05-03 09:29:37,036 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "add user to group",
+    "group_id": "G00001",
+    "permissions": "W",
+    "user": "VAULT_CLI1",
+    "owner": "VAULT_CLI3",
+    "msg": "adicionar user ao grupo",
+    "timestamp": "2025-05-03 | 09:29:37"
+  }
+}
+
+2025-05-03 09:29:37,038 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "group add-user finalize",
+    "group_id": "G00001",
+    "user": "VAULT_CLI1",
+    "requester": "VAULT_CLI3",
+    "encrypted_aes_keys": {
+      "FG000000001": "MlF0sBMOcGJGu7Wt0QNKlwJ2ESwIW//WL3Wt4gNSNTvgBSpt8PZ5Cr2YM2yY3YTiZ3LoC9YKtJRVzEl3iCNtNxME436yL8jX7rvuI9zxKq6pJT8GV2nt1h3iCNdslTA9haVUzNeIKC+ZaPXnDkTxZVVmLLr5l6uRNIbulVvRLzXtt2NVKJ39U1sClxV3qzuoGP9xqsyGGmA4wAE85xfAeuAjzOi+gasj+7j77yu2g3+CSL4eiks9JTSfz7E8hC6ToPiGz1kUSvW5rz6pcvhWM+RMDteQrFivi7aiMRvkgiSba7ZzNH150qUIRO89RO9Yi8FXy5BAGFsmbYb7NsNb1Q==",
+      "FG000000002": "imaZWjTRqPhrhktbFJaXWR1BL2TSTUkVZZ2K3MG4AegHElIGedeKN2Vb+kNE+jimwTQONdlFhrNT9kXi9hLa6TMoE/rvccDKRpRAlhMI1uZymKiUvae+HmUn67RE+PUdv97Sk1uym4AJyGQerhJBZvykDtjPCvSKOZ+Gy1bg6Xui5XDH/Q4gXzHjSTcu6lzOwIyZiac+zXWlnfQPp2W+2+Ksq2jcxLfcoY9aodUsC2sgkKjcZUoTz8cE2SnV0BsXcdsUPscu60hJRtWd4mpsnoUY0cmG8NxXeY3IOhB8CjkTJNcZrWq+7bY/dHQ0u2DNPAkbseaF5Bu8QgtZU69ykQ=="
+    },
+    "public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF0SW1NK1hUek5vYlZIbmsyU2lDWApzRmNaL1hpaDkweVJOeE5vRzArTkV4OWVoQmpYQ3AwWWE5SDlITHZKYzZhcnVEVnZoTlpQT3l0WXd2UTF2RkFBCkNVZld5a0EzUmRIb2l4OFlHWUlZSGFzWW5xWERTZk45b1BqVlBJdWZKT1hvSnRwcXo4VFRmempvNmtkU2tkOFYKMVZaQU4xenFFRmZMT05EdFE1TnRFTUJNcnZoTkJLOE5tZWtrSyt0MXR4RWFKYW1WbnB5aThENFk5NmFadnBxVAo1RGkwdXFlRTY0Y1M4NjVDbDdlVUY5K2NyRDlDYmZPcnFiMElyV05qbW53dUlramNyWjBtZHI0enZkZS82eGtrCkwzQmd1cHd2b00zVjNmYXlmcU9sWTlHT3UrdDFkZ2ExZ25SUHZqeDErK1kvNzFKUFJGZURqYW84Rm9YMUV2RXMKelFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  }
+}
+
+2025-05-03 09:29:37,040 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "requester": "VAULT_CLI3",
+    "group_id": "G00001",
+    "target_user": "VAULT_CLI1",
+    "action": "group add-user confirm",
+    "encrypted_keys": {
+      "FG000000001": "MYw6tkInkmmvaOZxYWSTATJmqlM0VzJ1u9v+FsyPnf3vyc8InHZJHR4449U9vosxjRgkt0eGz4diF7UQrTk8+Cnyv2slqYGeLsSvYP733O6Cdh+bHQLTTFQpgN7G5jGolYSUdzo8YQEHFYB1dEZQpeBbKvy3MM1RnqGm7KKziIJAoVT868GOmAla4tTGNRPSUAKiN6AdajvZLXhf4Djbw157e64nDjT5cuO3sPKEi0apkxAYF+nFWWH0JcMJ5mkoJ23IzSCTV0Ho3A3KjgSu2q9Mqk+/p7PhZbEYO1AdF1prQuicFP1yhQ60LcFUgphb5W4JMwz6oLvbJSB8zHnCKA==",
+      "FG000000002": "Ag35EdCrzmkTp1M29JRzPSAYpq8E0UPXxRJQ8LtUQe+a5yD97gsURqD+V11eMDla0iOvf+qW4kCuCf06rO+oMAt5frcPFHqdglGq299vSNJCliEog3Qyv1DT5g9M0b8r2ky0Ym8ro6xgqjsyahwuaWIl5bPaYKbAzxxa8o2nTY5AW9xdwe4C9W2oWAaGUzC+sAVFyrhbY0ZfnVbHubiE6vHS3ZsZsTAr/IKvpJgZplMKDk7voLFltqvYI9Qz14Po14RkOcE+93pXS0I1iTO5krpWhzr4/3tAkbsehafGiSsBpMdubh0r6hyE9uE4fp28OUNmDXQR6/k2nn4K9EY5qQ=="
+    }
+  }
+}
+
+2025-05-03 09:29:37,057 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "add user to group",
+    "msg": "[INFO] 2 ficheiros do grupo 'G00001' compartilhados com sucesso para o utilizador 'VAULT_CLI1'.",
+    "timestamp": "2025-05-03 | 09:29:37"
+  }
+}
+
+2025-05-03 09:29:40,854 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI3",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 09:29:40"
+  }
+}
+
+2025-05-03 09:29:40,855 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 09:29:40"
+  }
+}
+
+2025-05-03 09:29:43,242 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI2",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 09:29:43"
+  }
+}
+
+2025-05-03 09:29:43,242 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 09:29:43"
+  }
+}
+
+2025-05-03 09:29:45,742 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI1",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 09:29:45"
+  }
+}
+
+2025-05-03 09:29:45,742 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 09:29:45"
+  }
+}
+
+2025-05-03 09:33:58,125 - DEBUG - Using proactor: IocpProactor
+2025-05-03 09:34:00,027 - CRITICAL - [VAULT_CLI1] Erro na verificação da assinatura: cannot access local variable 'server_pub_key_bytes' where it is not associated with a value
+
+2025-05-03 09:34:22,022 - DEBUG - Using proactor: IocpProactor
+2025-05-03 09:34:23,290 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:34:23"
+  }
+}
+
+2025-05-03 09:34:30,927 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI1",
+    "user": "VAULT_CLI2",
+    "permission": "R",
+    "msg": "Share personal file",
+    "timestamp": "2025-05-03 | 09:34:30"
+  }
+}
+
+2025-05-03 09:34:30,929 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI1",
+    "target_user": "VAULT_CLI2",
+    "encrypted_aes_key": "Wby8eQDOe39/hykxyN2R7JiEoazpaAtQK+y+W21M4aHSO0WBXl86DPD861CI271WOHJCxOggRE5d3uA3LDFMV6ZczVDCMypj/FbrxiFp1ZoZdnHtCZLYMxXSDKllpGHuYsgi9OBG3YV3qzDa0Li4B4cQzzLmLlEQZ+9vD2hIF79WvQdiqiEhH8WCGsU3keHA+dwimWeTp3OM8aLYaKxiHbFc2sQ+A9QCrvcCnL91GFsVI7m3F/ZwE9uuJJgPX2P6A5H4lTvm+7fvdF6hZ3GWqdmfOnARzG8E7uA87ZMlWW+JWDu7HbugrLGpj1INZGTavOtvOaJSxPWA6VQhF/K/Iw==",
+    "public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF4Z2pZbnIxZDVxRERTVWNxVG93OQpGTzRlenlPLzBGL29wc3ZtMVl3cDZsWWhkQ1hlV09NZXE5bldQNHlwSU9zbFFkSEQ2N0JCc3NTTXdNTm5ITEhqCjdZekZoQjl4ZElaSHcvbzc3L1h4Ym5OZXkyQitBUS9NMVZhRVpyaHNSeWd4Q0ZYVGFVdGJNTW9aZW5Cb1FtWUwKbURvcitXeUJ5Rnd1WmloaHB3MERsa05zVThWRVczQWY0aUZlY2s1UFRZMHgrWVlpeC9ZSU92eC8wTkkwZ21MRApkTXFybGY3ZkFMbFBrd2NFMk40K2x2VWl5Sk5hQ20rbG96WXFYdURPV2ZDYTVGaElwQXJldUdhZlRISFgvQ2NKCllTTnVOWERLVjdLbHQwSWhHbldtYi9JYWtuM1Nsb0o4QUxiNzd5YnBMNDVGS0ozcTFmcjhnWmNYUi84ZENFMjMKcndJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  }
+}
+
+2025-05-03 09:34:30,931 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "requester": "VAULT_CLI1",
+    "file_id": "FU000000001",
+    "target_user": "VAULT_CLI2",
+    "action": "share_finalize",
+    "encrypted_key": "QWUaPSzSlH7WqdmgmZ/3kkdJG8K8rKUQhT4iPS0l0Nk8MA5j6qAvqkjgdkm+H9/PSXM3P9+rFYhEm61afVNKRUGEnVwKWZzFeQ/Rn3eibWmdI14/cGub0bGDPb5HifI3sLB/GABtiXoNDhQh9Jhmm+U0aFHbcqb8XJCLAeTXgw0R0XuLfw6IfyiwtQse7En+BERIQiUs+/hfjljCjIq0aZo7YlP0ndAaFaPR40rapQDLeYyfWo2ysOv3mEz+h7+CN7a9TJOUulqyzrYmx9rth3ae9HXa2UcqWruUpCynFNuCzCuITDaSkZO9vBHmVeLfYLr6DJuZoM4Ihc+rfu8oNw=="
+  }
+}
+
+2025-05-03 09:34:30,933 - INFO - {
+  "direction": "SENT",
+  "content": "[INFO] Ficheiro 'FU000000001' compartilhado com sucesso para o utilizador 'VAULT_CLI2'."
+}
+
+2025-05-03 09:34:39,767 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI1",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 09:34:39"
+  }
+}
+
+2025-05-03 09:34:39,767 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 09:34:39"
+  }
+}
+
+2025-05-03 09:42:23,976 - DEBUG - Using proactor: IocpProactor
+2025-05-03 09:42:25,525 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:42:25"
+  }
+}
+
+2025-05-03 09:42:26,951 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI1",
+    "user": "VAULT_CLI2",
+    "permission": "R",
+    "msg": "Share personal file",
+    "timestamp": "2025-05-03 | 09:42:26"
+  }
+}
+
+2025-05-03 09:42:26,953 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "share",
+    "file_id": "FU000000001",
+    "requester": "VAULT_CLI1",
+    "target_user": "VAULT_CLI2",
+    "encrypted_aes_key": "Wby8eQDOe39/hykxyN2R7JiEoazpaAtQK+y+W21M4aHSO0WBXl86DPD861CI271WOHJCxOggRE5d3uA3LDFMV6ZczVDCMypj/FbrxiFp1ZoZdnHtCZLYMxXSDKllpGHuYsgi9OBG3YV3qzDa0Li4B4cQzzLmLlEQZ+9vD2hIF79WvQdiqiEhH8WCGsU3keHA+dwimWeTp3OM8aLYaKxiHbFc2sQ+A9QCrvcCnL91GFsVI7m3F/ZwE9uuJJgPX2P6A5H4lTvm+7fvdF6hZ3GWqdmfOnARzG8E7uA87ZMlWW+JWDu7HbugrLGpj1INZGTavOtvOaJSxPWA6VQhF/K/Iw==",
+    "public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF4Z2pZbnIxZDVxRERTVWNxVG93OQpGTzRlenlPLzBGL29wc3ZtMVl3cDZsWWhkQ1hlV09NZXE5bldQNHlwSU9zbFFkSEQ2N0JCc3NTTXdNTm5ITEhqCjdZekZoQjl4ZElaSHcvbzc3L1h4Ym5OZXkyQitBUS9NMVZhRVpyaHNSeWd4Q0ZYVGFVdGJNTW9aZW5Cb1FtWUwKbURvcitXeUJ5Rnd1WmloaHB3MERsa05zVThWRVczQWY0aUZlY2s1UFRZMHgrWVlpeC9ZSU92eC8wTkkwZ21MRApkTXFybGY3ZkFMbFBrd2NFMk40K2x2VWl5Sk5hQ20rbG96WXFYdURPV2ZDYTVGaElwQXJldUdhZlRISFgvQ2NKCllTTnVOWERLVjdLbHQwSWhHbldtYi9JYWtuM1Nsb0o4QUxiNzd5YnBMNDVGS0ozcTFmcjhnWmNYUi84ZENFMjMKcndJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  }
+}
+
+2025-05-03 09:42:26,954 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "requester": "VAULT_CLI1",
+    "file_id": "FU000000001",
+    "target_user": "VAULT_CLI2",
+    "action": "share_finalize",
+    "encrypted_key": "mCLXCfIlyET7x61XM1TUMB765x1jWiGyuqPqA4Lerz4sx338V8ZqMrDr9sSKFNtAFPdCuwfijjPdr4Bxu251X5a2rtaH0Zh+nzq+1PSfe7Ucx3BQT7qFWH+XMBcIP5iB2gkaow0dzu/BnbpdRSgk28BKOvSLbbEV2L6T7GbflPPsrHkzQz3MuF7jp84aNXhTPKJPczjOGtUjbt59E1ZJQpYsCpYy5zgrWVpDGmmtyiPwDHDIldc1rsAZL39SkeM9OlnsyvXnpws340nqRNLAHY7axEeRUT3zPAL3ppZwVNSANtK1k49Ek6H2uP4MhZglkt83ZpAHGVwuWDdW1yPiVA=="
+  }
+}
+
+2025-05-03 09:42:26,956 - INFO - {
+  "direction": "SENT",
+  "content": "[INFO] Ficheiro 'FU000000001' compartilhado com sucesso para o utilizador 'VAULT_CLI2'."
+}
+
+2025-05-03 09:42:32,498 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "read",
+    "msg": "Ficheiro lido com sucesso!",
+    "timestamp": "2025-05-03 | 09:42:32"
+  }
+}
+
+2025-05-03 09:42:34,378 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI3",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 09:42:34"
+  }
+}
+
+2025-05-03 09:42:34,378 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 09:42:34"
+  }
+}
+
+2025-05-03 09:42:39,708 - INFO - {
+  "direction": "RECEIVED",
+  "content": {
+    "action": "exit",
+    "user": "VAULT_CLI1",
+    "msg": "A sair...",
+    "timestamp": "2025-05-03 | 09:42:39"
+  }
+}
+
+2025-05-03 09:42:39,708 - INFO - {
+  "direction": "SENT",
+  "content": {
+    "action": "exit",
+    "status": "success",
+    "msg": "Sessão terminada.",
+    "timestamp": "2025-05-03 | 09:42:39"
+  }
+}
+
